@@ -1,0 +1,16 @@
+package com.ecommerce.api.dto.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class RegisterUserReqDto {
+    String fullname;
+    String email;
+    String password;
+}
